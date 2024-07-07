@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://avdhesh-portfolio.vercel.app"><img src="./public/logo-white.png" width="60px"></a>
+<a href="https://avdhesh-portfolio.vercel.app"><img src="./public/logo.png" width="60px"></a>
 </div>
 
 <div align="center">
