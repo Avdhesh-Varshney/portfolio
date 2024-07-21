@@ -93,7 +93,7 @@ export const socialLinks = [
   {
     id: 12,
     name: "FreeCodeCamp",
-    url: "https://www.freecodecamp.org/fcc24931c32-23e5-4f34-9226-f829b186019b",
+    url: "https://www.freecodecamp.org/avdhesh",
     icon: FaFreeCodeCamp,
     status: "publication",
   },
@@ -107,7 +107,7 @@ export const socialLinks = [
   {
     id: 14,
     name: "Hashnode",
-    url: "https://hashnode.com/@aGameChanger",
+    url: "https://hashnode.com/@avdhesh-varshney",
     icon: FaHashnode,
     status: "publication",
   },
