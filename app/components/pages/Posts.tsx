@@ -10,8 +10,7 @@ import { sanityFetch } from "@/lib/sanity.client";
 import { readTime } from "@/app/utils/readTime";
 import { toPlainText } from "@portabletext/react";
 
-const fallbackImage: string =
-  "https://res.cloudinary.com/victoreke/image/upload/v1692608339/victoreke/blog.png";
+const fallbackImage: string = "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1724597954/blog.png";
 
 export default async function Posts() {
   const posts: PostType[] = await sanityFetch({

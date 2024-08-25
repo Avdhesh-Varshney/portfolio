@@ -18,7 +18,7 @@ const options = {
   title: "Avdhesh Varshney | Software Developer",
   description: "Avdhesh Varshney is a Software Developer and Technical Writer who is passionate about building solutions and contributing to open source communities",
   url: "https://avdhesh-portfolio.vercel.app",
-  ogImage: "https://res.cloudinary.com/victoreke/image/upload/v1692635746/victoreke/og.png",
+  ogImage: "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1724603838/og.png",
 };
 
 export const metadata: Metadata = {

@@ -25,8 +25,7 @@ type Props = {
   };
 };
 
-const fallbackImage: string =
-  "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/blog.png";
+const fallbackImage: string = "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1724597954/blog.png";
 
 // Dynamic metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -59,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: post.title,
       description: post.description,
       type: "article",
-      siteName: "victoreke.com",
+      siteName: "avdhesh-portfolio.vercel.app",
       authors: post.author.name,
       tags: post.tags,
       publishedTime: post._createdAt,

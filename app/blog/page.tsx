@@ -13,8 +13,7 @@ export const metadata: Metadata = {
     title: "Blog | Avdhesh Varshney",
     url: "https://avdhesh-portfolio.vercel.app/blog",
     description: "Read latest stories from Avdhesh Varshney's Blog",
-    images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/blog.png",
+    images: "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1724597954/blog.png",
   },
 };
 

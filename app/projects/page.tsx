@@ -16,8 +16,7 @@ export const metadata: Metadata = {
     title: "Projects | Avdhesh Varshney",
     url: "https://avdhesh-portfolio.vercel.app/projects",
     description: "Explore projects built by Avdhesh Varshney",
-    images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/projects.png",
+    images: "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1724597541/projects.png",
   },
 };
 
