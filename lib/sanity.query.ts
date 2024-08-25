@@ -100,3 +100,10 @@ export const singlePostQuery = groq`*[_type == "Post" && slug.current == $slug][
 }`;
 
 export const heroesQuery = groq`*[_type == "heroe"] | order(_createdAt asc) { _id, _createdAt, name, url, met }`;
+
+export const photosQuery = groq`*[_type == "photo"] | order(_createdAt desc) { 
+  _id,
+  _createdAt,
+  "src": src.asset->url,
+  alt,
+}`;

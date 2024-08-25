@@ -80,3 +80,10 @@ export type HeroeType = {
   url: string;
   met: boolean;
 };
+
+export type PhotoType = {
+  _id: string;
+  _createdAt: string;
+  src: string;
+  alt: string | null;
+};
