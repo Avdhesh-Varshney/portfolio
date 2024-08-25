@@ -21,7 +21,7 @@
 
 | [Site][site]          | [Studio][studio]                 |
 | --------------------- | -------------------------------- |
-| ![Site](./public/site.png) | ![Sanity Studio](./public/studio.png) |
+| ![Site](./public/site.jpeg) | ![Sanity Studio](./public/studio.png) |
 
 ## Run Project Locally
 
