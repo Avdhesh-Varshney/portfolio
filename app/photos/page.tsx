@@ -36,11 +36,14 @@ export default async function Photos() {
           {images.length > 0 ? (
             <section className="columns-1 sm:columns-2 lg:columns-3 gap-4 mb-12">
               {images.map((image) => (
-                <img
+                <Image
                   key={image._id}
                   src={image.src}
                   alt={image?.alt || ""}
                   className="mb-4 w-full break-inside-avoid rounded-lg"
+                  width={100}
+                  height={100}
+                  sizes="100"
                 />
               ))}
             </section>
