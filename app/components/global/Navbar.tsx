@@ -3,8 +3,8 @@ import { useTheme } from "next-themes";
 
 import Image from "next/image";
 import Link from "next/link";
-import LightLogo from "@/public/logo.png";
-import DarkLogo from "@/public/logo-dark.png";
+import LightLogo from "@/public/logo-light.png";
+import DarkLogo from "@/public/logo.png";
 import Theme from "./Theme";
 import UnmountStudio from "./Unmount";
 import MobileMenu from "./MobileMenu";
