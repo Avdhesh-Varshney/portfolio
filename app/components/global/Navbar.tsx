@@ -1,4 +1,5 @@
 'use client';
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
 import Image from "next/image";
@@ -10,7 +11,10 @@ import UnmountStudio from "./Unmount";
 import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
-  const { theme } = useTheme();
+  const { theme, systemTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+  const [hasMounted, setHasMounted] = useState(false);
+  useEffect(() => setHasMounted(true), []);
   const data = [
     {
       title: "About",
@@ -35,7 +39,11 @@ export default function Navbar() {
       <header className="text-sm py-6 md:px-16 px-6 border-b dark:border-zinc-800 border-zinc-200 z-30 md:mb-28 mb-10">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <Link href="/">
-            <Image src={theme === 'light' ? DarkLogo : LightLogo} width={35} height={35} alt="logo" />
+            {hasMounted ? (
+              <Image src={currentTheme === 'light' ? DarkLogo : LightLogo} width={35} height={35} alt="logo" />
+            ) : (
+              <span className="block w-[35px] h-[35px]" />
+            )}
           </Link>
 
           <nav className="md:block hidden">
